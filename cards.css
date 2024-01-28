@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.workspace{
+    background-color: rgb(135, 180, 184);
+    height: 90vw;
+    width: 99.3vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox img{
+    margin: 50px;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    width: 120px;
+    height: 120px;
+}
+.whitebox{
+    height: 370px;
+    width: 270px;
+    background-color: white;
+    border:1px solid white;
+    border-radius: 25px;
+    align-self: center;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+}
+.bluebox{
+    margin: 20px;
+    height: 60%;
+    /* width: 100%; */
+    background-color: rgb(34, 71, 145);
+    border-radius: 10px;
+    /* display: flex; */
+
+}
+.whitebox h4{
+    font: weight 8.5rem;
+    margin: 10px;
+
+   
+}
+.whitebox p{
+    font-size: 12px;
+    margin: 10px;
+    color: black;
+    /* justify-content: center; */
+}
